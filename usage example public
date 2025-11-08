@@ -1,4 +1,4 @@
-#assuming linux exc is in ./linux_execs/ folder:
+#assuming linux executable files are in ./linux_execs/ folder:
 scp ./linux_execs/remote_exec_helper username@remote_host:/full_path_from_root/
 
 #chmode +x for '/full_path_from_root/remote_exec_helper'
