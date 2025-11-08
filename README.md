@@ -7,6 +7,6 @@
 
 ---
 * scp helper to remote host
-* from your local host cat binary of code to execute to remote ssh
+* from your local host cat binary to execute into remote ssh
 
 See ```./usage example public```
