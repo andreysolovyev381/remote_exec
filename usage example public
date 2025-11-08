@@ -1,0 +1,8 @@
+#assuming linux exc is in ./linux_execs/ folder:
+scp ./linux_execs/remote_exec_helper username@remote_host:/full_path_from_root/
+
+#chmode +x for '/full_path_from_root/remote_exec_helper'
+
+% cat ./linux_execs/remote_hello_world | ssh username@remote_host '/full_path_from_root/remote_exec_helper'
+username@remote_host's password: 
+Hello world is called from host to execute at remote
